@@ -3,18 +3,21 @@
         "id": 0,
         "titulo": "Titulo tarefa",
         "descricao": "Descri\u00c3\u00a7ao tarefa",
+        "data": "22/06/2025",
         "pronta": true
     },
     {
         "id": 1,
         "titulo": "Teste",
         "descricao": "Teste",
+        "data": "22/06/2025",
         "pronta": true
     },
     {
         "id": 2,
-        "titulo": "Tes2",
+        "titulo": "Teste2",
         "descricao": "sfsdfsdfsdf",
+        "data": "22/06/2025",
         "pronta": true
     }
 ]
