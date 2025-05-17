@@ -12,7 +12,16 @@ venda = {'data': ['2023-01-01', '2023-01-02', '2023-01-03'],
 
 vendas_df = pd.read_excel('Vendas.xlsx')
 # print(vendas_df)
-print(vendas_df.head(10))
-print(vendas_df.shape)
-print(vendas_df.describe())
+# print(vendas_df.head(10))
+# print(vendas_df.shape)
+# print(vendas_df.describe())
 
+produtos = vendas_df[['Produto', 'ID Loja']]
+# print(produtos)
+
+# print(vendas_df.loc[1])
+# print(vendas_df.loc[1:5])
+
+# print(vendas_df.loc[vendas_df['ID Loja'] == 'Norte Shopping', ['Data', 'Produto', 'Quantidade']])
+
+print(vendas_df.loc[5, 'Produto'])
